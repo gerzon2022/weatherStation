@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "miles"]
+	url = https://github.com/gerzon2022/weatherStation.git
+	fetch = +refs/heads/*:refs/remotes/miles/*
+[remote "master"]
+	url = https://github.com/gerzon2022/weatherStation.git
+	fetch = +refs/heads/*:refs/remotes/master/*
